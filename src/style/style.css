@@ -1,0 +1,92 @@
+.vacancies-card {
+    width: 100%;
+    background-color: rgba(0, 17, 51, 0.22);
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+.vacancies__wrapper {
+    max-width: 800px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.vacancies__title {
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.vacancies-card__name {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.vacancies-card__salary {
+    font-size: 20px;
+}
+
+.vacancies-card__company,
+.vacancies-card__location,
+.vacancies-card__experience {
+    font-size: 20px;
+}
+
+.calculator{
+  margin: 0 auto;
+}
+
+.calculator__wrapper {
+    max-width: 800px;
+    display: grid;
+    padding: 20px;
+    gap: 15px;
+}
+
+.calculator-field-container {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.text_output {
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    background-color: #0099ff;
+    min-height: 20px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+  @media (min-width: 768px) {
+    
+    .calculator__wrapper {
+
+      margin: 0 auto;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .calculator-field-container {
+      grid-column: 1/2;
+    }
+
+    .text_output {
+      grid-column: 2/3;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    
+    .calculator__wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web lab 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="vacancies">
+    <div class="vacancies__wrapper">
+      <h2 class="vacancies__title">Список вакансий: 1</h2>
+
+      <article class="vacancies-card">
+        <h3 class="vacancies-card__name"></h3>
+        <b class="vacancies-card__salary"></b>
+        <p class="vacancies-card__company"></p>
+        <address class="vacancies-card__location"></address>
+        <p class="vacancies-card__experience"></p>
+      </article>
+    </div>    
+  </section>
+
+  <section class="calculator">
+    <div class="calculator__wrapper">
+        <div class="calculator-field-container">
+            <select class="calculator_field deposit_type_field" name="deposit_type" id="">
+                <option value="refill">пополняемый</option>
+                <option value="express">срочный</option>
+            </select>
+
+            <select class="calculator_field deposit_period_field" name="deposit_period" id="">
+                <option>Срок вклада</option>
+
+            </select>
+
+
+            <input class="price_field" type="text" name="price" placeholder="Сумма, руб">
+
+
+            <button class="submit_button">Рассчитать</button>
+        </div>
+        <div class="text_output"></div>
+    </div>
+</section>
+  
+</main>
+ 
+</body>
+</html>
